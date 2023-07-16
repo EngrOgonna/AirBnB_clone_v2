@@ -5,7 +5,7 @@ Fabric script based on the file 1-pack_web_static.py.
 
 from fabric.api import put, run, env
 from os.path import exists
-env.hosts = ['54.236.28.58', '34.229.136.237']
+env.hosts = ['142.44.167.228', '144.217.246.195']
 
 
 def do_deploy(archive_path):
